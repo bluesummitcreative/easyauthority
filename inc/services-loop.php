@@ -44,7 +44,7 @@
     </div>
     <!--col-->
 </div> 
-		  <?php $counter++; if($counter % 4 === 0) :  echo '</div> <div class="row">'; endif; ?>
+		  <?php $counter++; if($counter % 4 === 0) :  echo '</div> <div style="margin-top:40px;" class="row">'; endif; ?>
 	  
 								
 						<?php endwhile; endif; ?>	
