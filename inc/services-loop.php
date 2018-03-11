@@ -35,7 +35,8 @@
 	  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">   
      <div class="service-innerbox services-details red-bg">
         <div>
-							<p><?php the_sub_field ('content')?></p>
+			<h3 class="bold-font"><?php the_sub_field ('title')?></h3>
+			<p><?php the_sub_field ('content')?></p>
 		
 		</div>
      <!--service-innerbox--> 
