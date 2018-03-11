@@ -22,11 +22,13 @@
   <div class="row text-center">
    <h2>our services</h2>
    <div class="spacer"></div>
+	 </div>
+	 <div class="row">
    
 					<?php
 
 					// check if the repeater field has rows of data
-					if( have_rows('service') ):
+					if( have_rows('service') ): $counter = 1;
 
 						// loop through the rows of data
 						while ( have_rows('service') ) : the_row(); ?>
@@ -42,16 +44,10 @@
     </div>
     <!--col-->
 </div> 
+		  <?php $counter++; if($counter % 4 === 0) :  echo '</div> <div class="row">'; endif; ?>
+	  
 								
-						<?php endwhile;
-
-					else :
-
-						// no rows found
-
-					endif;
-
-					?>	
+						<?php endwhile; endif; ?>	
 			
 
 		   
