@@ -22,12 +22,7 @@
   <div class="row text-center">
    <h2>our services</h2>
    <div class="spacer"></div>
-    
-	
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">   
-     <div class="service-innerbox services-details red-bg">
-        <div>
-			
+   
 					<?php
 
 					// check if the repeater field has rows of data
@@ -35,9 +30,18 @@
 
 						// loop through the rows of data
 						while ( have_rows('service') ) : the_row(); ?>
+	  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">   
+     <div class="service-innerbox services-details red-bg">
+        <div>
 			
 							<h3 class="bold-font"><?php the_sub_field ('title')?></h3>
 							<p><?php the_sub_field ('content')?></p>
+		
+		</div>
+     <!--service-innerbox--> 
+    </div>
+    <!--col-->
+</div> 
 								
 						<?php endwhile;
 
@@ -50,11 +54,7 @@
 					?>	
 			
 
-		   </div>
-     <!--service-innerbox--> 
-    </div>
-    <!--col-->
-</div> 
+		   
 
 	  </div> 
 	  </div> 
