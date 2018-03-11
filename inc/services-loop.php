@@ -1,0 +1,77 @@
+<!--=============================--> 
+<!--========= We Offer =========--> 
+<!--=============================-->
+<div class="padding-outer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <div class="container">
+    <div class="row text-center">
+		
+      <?php the_field ('intro'); ?>
+    
+      <!--row--> 
+    </div>
+    <!--container--> 
+  </div>
+  <!--padding-outer--> 
+</div>
+<!--================================--> 
+<!--========= Our Services =========--> 
+<!--================================-->
+
+<div class="padding-outer grey-bg col-lg-12 col-md-12 col-sm-12 col-xs-12">
+ <div class="container">
+  <div class="row text-center">
+   <h2>our services</h2>
+   <div class="spacer"></div>
+    
+	
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">   
+     <div class="service-innerbox services-details red-bg">
+        <div>
+			
+					<?php
+
+					// check if the repeater field has rows of data
+					if( have_rows('service') ):
+
+						// loop through the rows of data
+						while ( have_rows('service') ) : the_row(); ?>
+			
+							<h3 class="bold-font"><?php the_sub_field ('title')?></h3>
+							<p><?php the_sub_field ('content')?></p>
+								
+						<?php endwhile;
+
+					else :
+
+						// no rows found
+
+					endif;
+
+					?>	
+			
+
+		   </div>
+     <!--service-innerbox--> 
+    </div>
+    <!--col-->
+</div> 
+
+	  </div> 
+	  </div> 
+	</div> 
+
+<!--===============================--> 
+<!--========= If You need =========--> 
+<!--===============================-->
+<div class="padding-inner red-bg col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <div class="container">
+    <div class="row text-center text-box any-service">
+      <h3>If you need any other service which is not mentioned above<br>feel free to contact us</h3>
+      <div class="clearfix"></div> 
+        <div class="btn-primary btn1"><a href="#">send message Now <span class="btn-arrow"></span></a></div>
+      <!--row--> 
+    </div>
+    <!--container--> 
+  </div>
+  <!--padding-inner--> 
+ </div>

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***** Special Colors *****/
+.grey-bg{
+	background-color:#eaeae6;
+}
+.red-bg{
+	background-color:#cf6028;
+}
+.black-bg{
+	background-color:#2a2a29
+}
+.white-bg{
+	background-color:#fff
+}
+.red-color{
+	color:#cf6028;
+}
+.black-color{
+	color:#333431;
+}
+/***** Special Classes *****/
+.regular-font{
+    font-family: 'montserratregular';
+}
+.light-font{
+    font-family: 'montserratlight' !important;
+}
+.semibold-font{
+    font-family: 'montserratsemi_bold';
+}
+.bold-font{
+    font-family: 'montserratbold';
+}
+.black-font{
+    font-family: 'MontserratBlack';
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.padding-outer{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.padding-inner{
+	padding-top:120px;
+	padding-bottom:120px;
+}
+.spacer,.spacer2{
+	float:left;
+	width:100%;
+	height:30px;
+}
