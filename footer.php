@@ -46,22 +46,6 @@
   </div>
   <!--black-bg--> 
 </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="/wp-content/themes/easyauthority/js/jquery-1.12.3.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="/wp-content/themes/easyauthority/js/bootstrap/bootstrap.js"></script> 
-<!-- Form Submission --> 
-<script src="/wp-content/themes/easyauthority/js/form-submission/validate.js"></script> 
-<script src="/wp-content/themes/easyauthority/js/form-submission/contact-form.js"></script> 
-<!-- LAZY EFFECTS Scripts --> 
-<script type="text/javascript" src="/wp-content/themes/easyauthority/js/jquery.unveilEffects.js"></script> 
-<!-- Owl Carousel  Gallery --> 
-<script src="/wp-content/themes/easyauthority/js/owl-carousel/owl.carousel.min.js"></script> 
-<!-- Filter Gallery --> 
-<script src="/wp-content/themes/easyauthority/js/projects/isotope.js"></script> 
-<!-- Custom Scripts --> 
-<script src="/wp-content/themes/easyauthority/js/custom.js"></script> 
-
 <?php wp_footer(); ?>
 </body>
 </html>
