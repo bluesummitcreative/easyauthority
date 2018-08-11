@@ -4,8 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title><? global $title; ?><? if ($title): ?><?=$title?> <?php echo " | "; bloginfo('name'); ?> <? else: ?><? wp_title('');?><? endif; ?></title>	
-<link rel="icon" href="/wp-content/themes/easyauthority/images/favicon.png" type="image/png">
 <link rel="stylesheet" href="/wp-content/themes/easyauthority/css/all-stylesheets.css" type="text/css" />
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
