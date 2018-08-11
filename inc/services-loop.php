@@ -62,7 +62,7 @@
     <div class="row text-center text-box any-service">
       <h3>If you need any other service which is not mentioned above<br>feel free to contact us</h3>
       <div class="clearfix"></div> 
-        <div class="btn-primary btn1"><a href="#">send message Now <span class="btn-arrow"></span></a></div>
+        <div class="btn-primary btn1"><a href="https://www.easyauthority.com/contact/">send message Now <span class="btn-arrow"></span></a></div>
       <!--row--> 
     </div>
     <!--container--> 
