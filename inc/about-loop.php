@@ -23,7 +23,7 @@
 	  <?php the_field ('orange_cta'); ?>		
 		
     
-		<div class="btn-primary btn1"><a href="<?php the_field ('orange_link'); ?>"> get a quote <span class="btn-arrow"></span></a></div>
+		<div class="btn-primary btn1"><a href="<?php the_field ('orange_cta_link'); ?>"> get a quote <span class="btn-arrow"></span></a></div>
       <!--row--> 
     </div>
     <!--container--> 
