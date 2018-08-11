@@ -15,12 +15,11 @@
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <aside class="footer-rt">
           <div class="sitemap pull-left">
-            <?php
+            <?php/*
 						wp_nav_menu( array( 
 							'theme_location' => 'my-custom-menu', 
 							'container_class' => 'custom-menu-class-footer' ) ); 
-						?>
-            <!--sitemap--> 
+					*/	?>
           </div>
           
           <div class="copyright-area pull-right footerlinks">
