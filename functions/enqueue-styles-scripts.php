@@ -3,7 +3,7 @@
 	function bsc_enqueue_styles_scripts() {
 		
 		// CSS
-		$stylesheets = array("bootstrap/bootstrap.min","animation","button","buttons","custom-layout","fonts","headings","mobile","preloader","special-classes","typography");
+		$stylesheets = array("bootstrap/bootstrap.min","animation","button","buttons","fonts","headings","mobile","preloader","special-classes","typography","custom-layout");
 		
 		foreach ($stylesheets as $stylesheet) {
     		wp_enqueue_style($stylesheet, get_template_directory_uri() . '/css/'.$stylesheet.'.css');
